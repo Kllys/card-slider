@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="testimonials">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="layer"></div>
+                        <div class="content">
+                            <p>loren ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
+                            <div class="imgBx">
+                                <img src="user.png" alt="" srcset="">
+                            </div>
+                            <div class="details">
+                                <h2>John Doe 1<br><span>Website Designer</span></h2>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="layer"></div>
+                        <div class="content">
+                            <p>loren ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
+                            <div class="imgBx">
+                                <img src="user.png" alt="" srcset="">
+                            </div>
+                            <div class="details">
+                                <h2>John Doe 2<br><span>Website Designer</span></h2>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="layer"></div>
+                        <div class="content">
+                            <p>loren ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
+                            <div class="imgBx">
+                                <img src="user.png" alt="" srcset="">
+                            </div>
+                            <div class="details">
+                                <h2>John Doe 3<br><span>Website Designer</span></h2>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="layer"></div>
+                        <div class="content">
+                            <p>loren ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
+                            <div class="imgBx">
+                                <img src="user.png" alt="" srcset="">
+                            </div>
+                            <div class="details">
+                                <h2>John Doe 4<br><span>Website Designer</span></h2>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="layer"></div>
+                        <div class="content">
+                            <p>loren ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
+                            <div class="imgBx">
+                                <img src="user.png" alt="" srcset="">
+                            </div>
+                            <div class="details">
+                                <h2>John Doe 5<br><span>Website Designer</span></h2>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".swiper-container", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 0,
+                stretch: 0,
+                depth: 0,
+                modifier: 1,
+                slideShadows: true,
+            },
+            loop: true,
+        });
+    </script>
+</body>
+</html>
