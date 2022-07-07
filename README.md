@@ -1,3 +1,3 @@
-# card-slider-1
+# card-slider
 
 https://kllys.github.io/card-slider
